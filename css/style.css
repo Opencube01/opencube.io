@@ -392,3 +392,12 @@ input{
 /* .thanks {
   display: none;
   } */
+
+  @media screen and (max-width: 991px) {
+    .second-header {
+
+      text-align: center;
+   
+    }
+  
+    }
