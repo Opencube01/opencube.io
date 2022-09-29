@@ -383,6 +383,12 @@ input{
 .info-text a {
   color: var(--primary-color);
 }
+.second-header span{
+  color: var(--primary-color);
+}
+.second-header{
+  /* font-weight: unset; */
+}
 /* .thanks {
   display: none;
   } */
