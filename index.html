@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Opencube</title>
+    <title>OpenCube.</title>
 
     <!-- ==== STYLE.CSS ==== -->
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!-- ====  REMIXICON CDN ==== -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -59,28 +59,44 @@
         <div class="grid-cols-2">
           <div class="grid-item-1">
             <h1 class="main-heading">
-              Welcome to <span>Opencube.</span>
+              Welcome to <span>OpenCube.</span>
               <br />
               <!-- Develop anything. -->
             </h1>
             <p class="info-text">
               We are building the Uber for real estate lending on Blockchain
             </p>
-            <div>
 
-              <form class="Signup__form" action=""  id="newsletter" method="post">
+            <p class="info-text">
+              If interested contact us @ <a href="mailto:hello@opencube.io">hello@opencube.io</a>
+            </p>
 
-
-      
-                <input required id="email" type="email" placeholder="Drop your email and stay updated">
-                <button class="btn view_more_btn Signup__button" form="newsletter" type="submit">
+           
+            <!-- <div>
+              <form
+                class="Signup__form"
+                action=""
+                id="newsletter"
+                method="post"
+              >
+                <input
+                  required
+                  id="email"
+                  type="email"
+                  name="emailID"
+                  placeholder="Drop your email and stay updated"
+                />
+                <button
+                  class="btn view_more_btn Signup__button submit"
+                  form="newsletter"
+                  type="submit"
+                >
                   Submit <i class="ri-arrow-right-line"></i>
                 </button>
-  
-                <!-- <button class="btn documentation_btn">documentation</button> -->
+                
               </form>
-            </div>
-           
+
+            </div> -->
           </div>
           <div class="grid-item-2">
             <div class="team_img_wrapper">
@@ -179,5 +195,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <!-- ==== SCRIPT.JS ==== -->
     <script src="./script.js" defer></script>
+
+    <!-- <script>
+      document.querySelector(".submit").addEventListener(
+        "click",
+        function (e) {
+          var userEmailSlot = document.getElementsByName("emailID")[0].value;
+
+          if (
+            userInputMessage.length > 0
+          ) {
+            document.querySelector(".thanks").style.display = "block";
+            // document.querySelector(".contact-form").style.display = "none";
+          } else {
+            e.preventDefault();
+          }
+        },
+        false
+      );
+    </script> -->
   </body>
 </html>

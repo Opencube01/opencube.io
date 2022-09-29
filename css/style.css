@@ -121,6 +121,7 @@ button {
 .grid-item-1 {
   padding-top: 5rem;
   padding-left: 1.5rem;
+  padding-bottom: 5rem;
 }
 .main-heading {
   font-weight: 300;
@@ -218,7 +219,7 @@ button {
 .icon svg {
   width: 30px;
   height: 30px;
-  color: #6b85d8;
+  color: #1349fa;
 }
 /* .featured_info {
   width: 100%;
@@ -378,4 +379,10 @@ input{
 	max-width: 300px;
 
 }
-	
+
+.info-text a {
+  color: var(--primary-color);
+}
+/* .thanks {
+  display: none;
+  } */
